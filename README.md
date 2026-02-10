@@ -1,16 +1,105 @@
-# React + Vite
+# 📚 Training Management System (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Training Management System built using **React + Vite**.  
+This application helps manage **Subjects, Courses, Batches, and Students** in a simple dashboard.
 
-Currently, two official plugins are available:
+Developed as part of an interview assignment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ✅ Dashboard
+- Displays total count of:
+  - Subjects
+  - Courses
+  - Batches
+  - Students
 
-## Expanding the ESLint configuration
+### ✅ Subject Management
+- Add new subjects
+- Prevent duplicate entries
+- Delete subjects
+- Input validation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✅ Course Management
+- Create courses
+- Assign multiple subjects
+- Minimum 2 subjects required
+- Display subject mapping
+
+### ✅ Batch Management
+- Create batches
+- Assign courses
+- Set start & end time
+- Time validation
+
+### ✅ Student Management
+- Add students
+- Assign course & batch
+- Auto filter batches
+- Mandatory field validation
+
+### ✅ UI & UX
+- Responsive layout
+- Center aligned header
+- Auto-fit for all screen sizes
+- Professional dark theme
+- Clean navigation
+
+### ✅ Storage
+- Data saved using **LocalStorage**
+- Data persists after refresh
+
+---
+
+## 🛠️ Technologies Used
+
+- React (Hooks)
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- LocalStorage
+
+---
+2️⃣ Go to Project Folder
+cd training-management-system
+
+3️⃣ Install Dependencies
+npm install
+
+4️⃣ Start Application
+npm run dev
+
+📌 Validations Implemented
+
+Empty input check
+
+Duplicate subject prevention
+
+Minimum subject selection
+
+Time validation
+
+Required field validation
+
+Delete confirmation
+
+✨ Optional Enhancements
+
+Responsive design
+
+LocalStorage support
+
+Clean UI
+
+Professional layout
+
+👩‍💻 Developer
+
+Name: Dharsni R
+Degree: B.Tech - Information Technology
+Year: 2025
+Location: India
+
